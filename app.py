@@ -10,7 +10,7 @@ from langchain.vectorstores import FAISS
 from langchain.memory import ConversationBufferMemory
 
 # Set the Hugging Face Hub API token as an environment variable
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR_API_KEY"
 
 # Load the single PDF file
 pdf_path = 'D:\\LANGCHAIN\\C\\env\\data\\Medical_book.pdf'
